@@ -20,6 +20,9 @@ Responsibilities:
 
 import "./styles.css";
 import Phaser from "phaser";
+import BootScene from "./scenes/BootScene";
+import PreloadScene from "./scenes/PreloadScene";
+import MainMenuScene from "./scenes/MainMenuScene";
 
 const GAME_WIDTH = 1280;
 const GAME_HEIGHT = 720;
