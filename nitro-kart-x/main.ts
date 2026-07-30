@@ -18,6 +18,7 @@ Responsibilities:
 ===========================================================
 */
 
+import "./styles.css";
 import Phaser from "phaser";
 
 const GAME_WIDTH = 1280;
