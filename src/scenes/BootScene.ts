@@ -13,6 +13,10 @@ export default class BootScene extends Phaser.Scene {
     }
 
     create(): void {
+    console.log("Boot complete.");
+
+    this.scene.start("PreloadScene");
+    } 
         this.cameras.main.setBackgroundColor("#0f172a");
 
         this.add
