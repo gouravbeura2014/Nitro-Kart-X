@@ -103,7 +103,10 @@ const config: Phaser.Types.Core.GameConfig = {
     backgroundColor: "#000000",
 
     scene: [
-        BootScene
+    BootScene,
+    PreloadScene,
+    MainMenuScene,
+],
     ],
 
     physics: {
