@@ -26,6 +26,10 @@ export default class PreloadScene extends Phaser.Scene {
     }
 
     create(): void {
+    console.log("Assets loaded.");
+
+    this.scene.start("MainMenuScene");
+    }
         console.log("Assets loaded successfully.");
 
         // For now, return to BootScene.
